@@ -1,0 +1,89 @@
+* {
+    /* outline: red 1px solid; */
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    color: white;
+    background-color: black;
+    padding: 10px 0px 10px 10px;
+    margin: auto 15%;
+}
+
+#title {
+    text-size-adjust: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    padding: 0px 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#minicont_left {
+    width: 30%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#minicont_right {
+    width: 60%;
+    height: fit-content;
+    display: inline;
+}
+
+.definition {
+    margin: 20px 0px;
+    padding: 8px;
+    padding-right: 20px;
+    outline: black 3px solid;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.friend {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.friendname {
+    width: 320px;
+    flex-grow: 2;
+    text-align: left;
+}
+
+#clicks1, #clicks2, #clicks3 {
+    flex-grow: 3;
+    text-align: right;
+}
+
+.like_button {
+    flex-grow: 1;
+    padding: 2%;
+    margin-bottom: 10px;
+    color: black;
+    background-color: rgb(251, 200, 49);
+    box-shadow: 3px 3px 0px black;
+}
+
+img {
+    height: 80px;
+    border-radius: 50%;
+}
+
+p  {
+    margin: auto 10px;
+    text-align: left;
+}
+
+.friend p {
+    width: 70px;
+}
